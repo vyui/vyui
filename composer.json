@@ -12,6 +12,7 @@
             "App\\": "app"
         }
     },
+    "license": "GNU General Public License v3.0",
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
