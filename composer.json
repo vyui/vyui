@@ -6,7 +6,6 @@
     "require": {
         "php": "^8.0"
     },
-    "license": "GNU GENERAL PUBLIC LICENSE",
     "autoload": {
         "psr-4": {
             "App\\": "app"
