@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4e1401b2b16f419ef25a1eecd9437f03",
+    "packages": [
+        {
+            "name": "vyui/framework",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vyui/framework.git",
+                "reference": "f6b19c9b45bbc4e89df4493b82ddac87340826db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vyui/framework/zipball/f6b19c9b45bbc4e89df4493b82ddac87340826db",
+                "reference": "f6b19c9b45bbc4e89df4493b82ddac87340826db",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Radiate\\": "src/Radiate/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Liam Taylor",
+                    "email": "liamtaylor@vyui.co.uk"
+                }
+            ],
+            "description": "The Vyui Fullstack Framework. Pronounced view-e. (Experimental and Educational).",
+            "keywords": [
+                "framework",
+                "vyui"
+            ],
+            "support": {
+                "issues": "https://github.com/vyui/framework/issues",
+                "source": "https://github.com/vyui/framework"
+            },
+            "time": "2021-07-17T21:12:59+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

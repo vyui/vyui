@@ -4,7 +4,8 @@
     "description": "The Vyui Fullstack Framework. Pronounced view-e. (Experimental and Educational).",
     "keywords": ["framework", "vyui"],
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "vyui/framework": "*"
     },
     "autoload": {
         "psr-4": {
