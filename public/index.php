@@ -8,10 +8,16 @@
 |
 */
 
-require_once '../vendor/autoload.php';
+require_once './../vendor/autoload.php';
 
-$application = new \Radiate\Foundation\Application(
-    $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
-);
+/*----------------------------------------------------------------------------------------------------------------------
+| Bootstrap The Application
+|-----------------------------------------------------------------------------------------------------------------------
+| Upon the Application being built and returned, we can then handle incoming requests via the Application's designated
+| Kernel.
+|
+*/
 
-var_dump($application);
+$application = require_once './../bootstrap/application.php';
+
+var_dump(app());

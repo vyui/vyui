@@ -2,6 +2,7 @@
     "name": "vyui/vyui",
     "type": "project",
     "description": "The Vyui Fullstack Framework. Pronounced view-e. (Experimental and Educational).",
+    "license": "MIT",
     "keywords": ["framework", "vyui"],
     "require": {
         "php": "^8.0",
