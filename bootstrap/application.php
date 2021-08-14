@@ -8,7 +8,7 @@
 |
 */
 
-$application = (new \Radiate\Foundation\Application)->setBasePath(
+$application = new \Radiate\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
 );
 

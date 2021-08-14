@@ -1,5 +1,7 @@
 <?php
 
+define('VYUI_START', microtime(true));
+
 /*----------------------------------------------------------------------------------------------------------------------
 | Register the Applications Auto Loader
 |-----------------------------------------------------------------------------------------------------------------------
@@ -20,4 +22,14 @@ require_once './../vendor/autoload.php';
 
 $application = require_once './../bootstrap/application.php';
 
-var_dump(app());
+/*----------------------------------------------------------------------------------------------------------------------
+| Send the Response
+|-----------------------------------------------------------------------------------------------------------------------
+| Here we are going to be preparing and handling the request, building a response and then sending the response to the
+| client.
+|
+*/
+
+$response = (
+    $kernel = $application->make('kernel')
+)->handle(\Radiate\Http\Request::capture())->send();

@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vyui/framework.git",
-                "reference": "f6b19c9b45bbc4e89df4493b82ddac87340826db"
+                "reference": "7f5fe85646514b8e924f1dd13a41a3cc1eb0b266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vyui/framework/zipball/f6b19c9b45bbc4e89df4493b82ddac87340826db",
-                "reference": "f6b19c9b45bbc4e89df4493b82ddac87340826db",
+                "url": "https://api.github.com/repos/vyui/framework/zipball/7f5fe85646514b8e924f1dd13a41a3cc1eb0b266",
+                "reference": "7f5fe85646514b8e924f1dd13a41a3cc1eb0b266",
                 "shasum": ""
             },
             "require": {
@@ -26,11 +26,17 @@
             "default-branch": true,
             "type": "library",
             "autoload": {
+                "files": [
+                    "src/Radiate/Foundation/helpers.php"
+                ],
                 "psr-4": {
                     "Radiate\\": "src/Radiate/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "authors": [
                 {
                     "name": "Liam Taylor",
@@ -46,7 +52,7 @@
                 "issues": "https://github.com/vyui/framework/issues",
                 "source": "https://github.com/vyui/framework"
             },
-            "time": "2021-07-17T21:12:59+00:00"
+            "time": "2021-07-24T10:36:45+00:00"
         }
     ],
     "packages-dev": [],
