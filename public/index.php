@@ -1,5 +1,8 @@
 <?php
 
+use Radiate\Http\Request;
+use Radiate\Foundation\Http\Kernel;
+
 define('VYUI_START', microtime(true));
 
 /*----------------------------------------------------------------------------------------------------------------------
@@ -20,7 +23,9 @@ require_once './../vendor/autoload.php';
 |
 */
 
-$application = require_once './../bootstrap/application.php';
+$application = require_once __DIR__ . '/../bootstrap/application.php';
+
+dd($application);
 
 /*----------------------------------------------------------------------------------------------------------------------
 | Send the Response
@@ -30,6 +35,6 @@ $application = require_once './../bootstrap/application.php';
 |
 */
 
-$response = (
-    $kernel = $application->make('kernel')
-)->handle(\Radiate\Http\Request::capture())->send();
+$response = ($kernel = $application->make(Kernel::class))
+    ->handle(Request::capture())
+    ->send();

@@ -2,10 +2,15 @@
 
 namespace App\Http\Controllers;
 
-class Controller
+use Radiate\Routing\Controller as CoreController;
+
+class Controller extends CoreController
 {
-    public function renderHomePage()
+    /**
+     * @return string
+     */
+    public function renderHomePage(): string
     {
-        return 'hi there. from the render home page method';
+        return 'yeet from render home page';
     }
 }

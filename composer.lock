@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vyui/framework.git",
-                "reference": "7f5fe85646514b8e924f1dd13a41a3cc1eb0b266"
+                "reference": "03f1dc570d0b34a7a35d692c305896d931c653ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vyui/framework/zipball/7f5fe85646514b8e924f1dd13a41a3cc1eb0b266",
-                "reference": "7f5fe85646514b8e924f1dd13a41a3cc1eb0b266",
+                "url": "https://api.github.com/repos/vyui/framework/zipball/03f1dc570d0b34a7a35d692c305896d931c653ca",
+                "reference": "03f1dc570d0b34a7a35d692c305896d931c653ca",
                 "shasum": ""
             },
             "require": {
@@ -52,7 +52,7 @@
                 "issues": "https://github.com/vyui/framework/issues",
                 "source": "https://github.com/vyui/framework"
             },
-            "time": "2021-07-24T10:36:45+00:00"
+            "time": "2021-09-16T11:58:25+00:00"
         }
     ],
     "packages-dev": [],

@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+
+$application = require_once __DIR__ . '/bootstrap/application.php';
+
+dd((new \Radiate\Foundation\Console\Input)->getArguments());
